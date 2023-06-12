@@ -30,6 +30,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   late final _undoController = UndoHistoryController();
+
   late final _editingController = CustomEditingController(
     pattern: RegExp(r"\Flutter"),
     customStyle: const TextStyle(
@@ -45,6 +46,9 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
+
+    //style may also be set from inherited theme
+
     // Future.microtask(() {
     //   _controller.setStyle(Theme.of(context).textTheme.headlineMedium!.copyWith(
     //         color: const Color(0xfff9a602),
