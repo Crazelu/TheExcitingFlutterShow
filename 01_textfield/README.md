@@ -1,16 +1,7 @@
-# textfield_playground
+# TheExcitingFlutterShow Episode 01
 
-A new Flutter project.
+- Exploring TextEditingController and UndoHistoryController.
 
-## Getting Started
+In this episode, I show how to take advantage of the TextEditingController's text painting capabilities on a high level to add visual distinction to the texts in TextField, TextFormField or EditableText widgets. For example, this is useful for distinguishing between user tags and normal texts in your text field. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+From [Flutter 3.0.0](https://github.com/flutter/flutter/pull/96968), a new `undoController` property can be provided to the TextField and EditableText widgets. This allows undo/redo operations to be performed on the value of the editable text field. In this episode, I demonstrate how can be used to implement a simple text editing interface.
