@@ -4,4 +4,10 @@ The Exciting Flutter Show is a series that explores less known features and conc
 
 ## Episodes
 
-- [Epispode 01: Exploring TextEditingController and UndoHistoryController](https://github.com/Crazelu/TheExcitingFlutterShow/tree/main/01_textfield)
+[![alt text][1.1]][1]
+
+[1.1]: https://raw.githubusercontent.com/Crazelu/TheExcitingFlutterShow/main/assets/youtube.png (Watch on YouTube)
+
+[1]: InsertYouTubePlaylistLinkHere
+
+- [Epispode 01: Exploring UndoHistoryController and TextEditingController](https://github.com/Crazelu/TheExcitingFlutterShow/tree/main/episode1)
