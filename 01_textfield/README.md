@@ -6,4 +6,8 @@ In this episode, I show how to take advantage of the `TextEditingController`'s t
 
 From [Flutter 3.0.0](https://github.com/flutter/flutter/pull/96968), a new `undoController` property can be provided to the `TextField` and `EditableText` widgets. This allows undo/redo operations to be performed on the value of the editable text field. In this episode, I demonstrate how can be used to implement a simple text editing interface with undo and redo actions.
 
-[![Click to watch on YouTube][https://raw.githubusercontent.com/Crazelu/TheExcitingFlutterShow/main/assets/youtube_btn.png (YouTube button)]] [InsertLinkHere]
+[![alt text][1.1]][1]
+
+[1.1]: https://raw.githubusercontent.com/Crazelu/TheExcitingFlutterShow/main/assets/youtube.png (Watch on YouTube)
+
+[1]: InsertYouTubeLinkHere
