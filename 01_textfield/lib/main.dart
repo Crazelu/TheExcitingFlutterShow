@@ -172,18 +172,24 @@ class CustomEditingController extends TextEditingController {
 
         for (int i = 0; i < matches.length; i++) {
           final match = matches[i];
-          children.add(TextSpan(
-            style: style?.merge(_customStyle),
-            text: text.substring(match.start, match.end),
-          ));
+          children.add(
+            TextSpan(
+              style: style?.merge(_customStyle),
+              text: text.substring(match.start, match.end),
+            ),
+          );
           if (i + 1 <= matches.length - 1) {
-            children.add(TextSpan(
-              text: text.substring(match.end, matches[i + 1].start),
-            ));
+            children.add(
+              TextSpan(
+                text: text.substring(match.end, matches[i + 1].start),
+              ),
+            );
           } else {
-            children.add(TextSpan(
-              text: text.substring(match.end),
-            ));
+            children.add(
+              TextSpan(
+                text: text.substring(match.end),
+              ),
+            );
           }
         }
 
