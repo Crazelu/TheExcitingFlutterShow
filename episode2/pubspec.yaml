@@ -1,11 +1,10 @@
-name: episode1
-description: 'TheExcitingFlutterShow Episode 01: Exploring TextEditingController and UndoHistoryController.'
+name: episode2
+description: 'TheExcitingFlutterShow Episode 02: Keyboard and Text Editing Autocompletion.'
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
   sdk: '>=2.19.6 <4.0.0'
-
 
 dependencies:
   flutter:
@@ -14,9 +13,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/story.txt
 
