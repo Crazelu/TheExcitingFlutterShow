@@ -20,4 +20,6 @@ flutter:
 
   assets:
     - assets/story.txt
+    - assets/shift.png
+    - assets/shift_filled.png
 
