@@ -2,7 +2,7 @@
 
 ## Keyboard and Text Editing Autocompletion
 
-In this episode, I show how autocompletion can be added to rich editing interfaces built in Flutter using the trie data structure. And with knowledge from [https://github.com/Crazelu/TheExcitingFlutterShow/tree/main/episode1](Episode 01), the suggestion is painted with a lower opacity than the main text color.
+In this episode, I show how autocompletion can be added to rich editing interfaces built in Flutter using the trie data structure. And with knowledge from [Episode 01](https://github.com/Crazelu/TheExcitingFlutterShow/tree/main/episode), the suggestion is painted with a lower opacity than the main text color.
 I also demonstrate how gestures can be used to apply inline suggestions.
 
 <img src="https://raw.githubusercontent.com/Crazelu/TheExcitingFlutterShow/tree/main/episode2/assets/demo.gif" width="280" alt="Autocompletion demo"> 
@@ -13,7 +13,7 @@ I also demonstrate how gestures can be used to apply inline suggestions.
 
 [1]: InsertYouTubeLinkHere
 
-## Credits
+## Credits 
 The stories used to create a dictionary for autocompletion were sourced from:
 
 - https://sherlock-holm.es/ascii/
