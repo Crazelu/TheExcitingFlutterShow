@@ -5,7 +5,7 @@
 In this episode, I show how autocompletion can be added to rich editing interfaces built in Flutter using the trie data structure. And with knowledge from [Episode 01](https://github.com/Crazelu/TheExcitingFlutterShow/tree/main/episode), the suggestion is painted with a lower opacity than the main text color.
 I also demonstrate how gestures can be used to apply inline suggestions.
 
-<img src="https://raw.githubusercontent.com/Crazelu/TheExcitingFlutterShow/tree/main/episode2/assets/demo.gif" width="280" alt="Autocompletion demo"> 
+<img src="https://raw.githubusercontent.com/Crazelu/TheExcitingFlutterShow/main/episode2/assets/demo.gif" width="280" alt="Autocompletion demo"> 
 
 [![alt text][1.1]][1]
 
