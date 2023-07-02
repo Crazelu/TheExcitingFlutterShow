@@ -259,7 +259,7 @@ class _SpaceBar extends StatelessWidget {
       onTap: onTap,
       child: Container(
         height: 40,
-        width: MediaQuery.of(context).size.width * .83,
+        width: MediaQuery.of(context).size.width * .8,
         decoration: BoxDecoration(
           color: const Color.fromRGBO(106, 106, 106, 1),
           borderRadius: BorderRadius.circular(4),
@@ -298,8 +298,8 @@ class _KeyWidget extends StatelessWidget {
       onTap: () => onTap(data),
       child: Container(
         height: 40,
-        width: 36,
-        margin: showMargin ? const EdgeInsets.only(right: 5) : EdgeInsets.zero,
+        width: 34,
+        margin: showMargin ? const EdgeInsets.only(right: 4) : EdgeInsets.zero,
         decoration: BoxDecoration(
           color: const Color.fromRGBO(106, 106, 106, 1),
           borderRadius: BorderRadius.circular(4),
@@ -329,7 +329,7 @@ class _BackSpace extends StatelessWidget {
       onTap: onTap,
       child: Container(
         height: 42,
-        width: 44,
+        width: 40,
         padding: const EdgeInsets.all(6),
         margin: const EdgeInsets.only(right: 12),
         decoration: BoxDecoration(
@@ -367,7 +367,7 @@ class _CapsLockKey extends StatelessWidget {
       onTap: onTap,
       child: Container(
         height: 42,
-        width: 44,
+        width: 40,
         padding: const EdgeInsets.all(8),
         decoration: BoxDecoration(
           color: active ? _activeColor : _inactiveColor,
