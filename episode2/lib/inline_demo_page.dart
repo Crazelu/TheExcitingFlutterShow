@@ -29,38 +29,36 @@ class _InlineDemoPageState extends State<InlineDemoPage> {
         },
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                ValueListenableBuilder(
-                    valueListenable: _controller.suggestionNotifier,
-                    builder: (context, _, __) {
-                      return TextField(
-                        cursorColor: Colors.black26,
-                        controller: _controller,
-                        maxLines: 14,
-                        decoration: InputDecoration(
-                          border: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              color: Colors.grey.shade400,
-                            ),
-                          ),
-                          enabledBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              color: Colors.grey.shade400,
-                            ),
-                          ),
-                          focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              color: Colors.grey.shade400,
-                            ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              ValueListenableBuilder(
+                  valueListenable: _controller.suggestionNotifier,
+                  builder: (context, _, __) {
+                    return TextField(
+                      cursorColor: Colors.black26,
+                      controller: _controller,
+                      maxLines: 14,
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Colors.grey.shade400,
                           ),
                         ),
-                      );
-                    }),
-              ],
-            ),
+                        enabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Colors.grey.shade400,
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Colors.grey.shade400,
+                          ),
+                        ),
+                      ),
+                    );
+                  }),
+            ],
           ),
         ),
       ),

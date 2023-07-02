@@ -30,44 +30,42 @@ class _KeyboardDemoPageState extends State<KeyboardDemoPage> {
         onHorizontalDragEnd: (_) {
           _controller.acceptSuggestion();
         },
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              const Spacer(),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: TextField(
-                  focusNode: _focusNode,
-                  cursorColor: Colors.black26,
-                  controller: _controller,
-                  maxLines: 14,
-                  decoration: InputDecoration(
-                    border: OutlineInputBorder(
-                      borderSide: BorderSide(
-                        color: Colors.grey.shade400,
-                      ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Spacer(),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: TextField(
+                focusNode: _focusNode,
+                cursorColor: Colors.black26,
+                controller: _controller,
+                maxLines: 14,
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Colors.grey.shade400,
                     ),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
-                        color: Colors.grey.shade400,
-                      ),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Colors.grey.shade400,
                     ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
-                        color: Colors.grey.shade400,
-                      ),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Colors.grey.shade400,
                     ),
                   ),
                 ),
               ),
-              const Spacer(),
-              Keyboard(
-                controller: _controller,
-                focusNode: _focusNode,
-              ),
-            ],
-          ),
+            ),
+            const Spacer(),
+            Keyboard(
+              controller: _controller,
+              focusNode: _focusNode,
+            ),
+          ],
         ),
       ),
     );
