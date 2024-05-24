@@ -12,3 +12,4 @@ The Exciting Flutter Show is a series that explores less known features and conc
 
 - [Epispode 01: Exploring UndoHistoryController and TextEditingController](https://github.com/Crazelu/TheExcitingFlutterShow/tree/main/episode1)
 - [Epispode 02: Keyboard and Text Editing Autocompletion](https://github.com/Crazelu/TheExcitingFlutterShow/tree/main/episode2)
+- [Epispode 03: Testing AppLifecycleState Changes in Flutter](https://github.com/Crazelu/TheExcitingFlutterShow/tree/main/episode3)
