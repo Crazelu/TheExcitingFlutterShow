@@ -11,7 +11,7 @@ I also demonstrate how gestures can be used to apply inline suggestions.
 
 [1.1]: https://raw.githubusercontent.com/Crazelu/TheExcitingFlutterShow/main/assets/youtube.png (Watch on YouTube)
 
-[1]: InsertYouTubeLinkHere
+[1]: https://youtu.be/3rcTRO9FFdQ
 
 ## Credits 
 The stories used to create a dictionary for autocompletion were sourced from:

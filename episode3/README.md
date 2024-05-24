@@ -10,4 +10,4 @@ In this episode, I'll show how behaviours influenced by changes in `AppLifecycle
 
 [1.1]: https://raw.githubusercontent.com/Crazelu/TheExcitingFlutterShow/main/assets/youtube.png (Watch episode on YouTube)
 
-[1]: //TODO: Add real youtube URL
+[1]: InsertYouTubeLinkHere
